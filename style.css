@@ -1,43 +1,56 @@
-body {
-    margin: 20px;
-    display: flex;
-justify-content: space-between;
-}
-
-.left-top {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-.heading {
-    margin-bottom: 10px;
-    display: flex;
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: center;
+    justify-content: center;
     align-items: center;
-    padding: auto;
+    font-family: 'Press Start 2P', 'Arial';
 }
 
-.textarea-container {
+.header {
     display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    font-family: 'Press Start 2P';
+    font-size: 9px;
 }
 
-.textarea-group {
-    margin-right: 20px;
+.header h1 {
+    padding-top: 30px;
+    margin: 0 100px 20px;
+}
+
+.container {
+    padding-left: 135px;
+    justify-content: center;
+}
+
+.btn-container {
+    justify-content: center;
+    margin-top: 300px; 
+}
+
+.lists {
+    display: inline-flex;
+}
+
+.list1, .list2, .btn-pos {
+    padding: 0px 30px;
 }
 
 textarea {
-    padding: 15px;
-    box-sizing: border-box;
-    width: 100%;
     resize: none;
+    background-color: rgb(253, 253, 244);
+    border-color: black;
+    border-style: double;
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-.btn-group {
-    margin-left: 20px;
+.btn-style {
+    padding: 15px 30px;
+    font-family: 'Press Start 2P', 'Arial';
+    background-color: rgb(210, 210, 210);
 }
