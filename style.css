@@ -54,3 +54,7 @@ textarea {
     font-family: 'Press Start 2P', 'Arial';
     background-color: rgb(210, 210, 210);
 }
+
+p {
+    font-family: 'Arial';
+}

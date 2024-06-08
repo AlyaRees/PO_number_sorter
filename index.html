@@ -15,7 +15,7 @@
             <h1>Generated duplicates</h1>
         </div>
         <div class="container">
-            <form class="lists">
+            <form class="lists" onsubmit="findDuplicates(event)">
                 <div class="list1">
                     <label for="list1">List 1</label><br><br>
                     <textarea id="list1" rows="45" cols="25" placeholder="Paste first list here"></textarea>
@@ -26,13 +26,16 @@
                 </div>
                 <div class="btn-container">
                     <div class="btn-pos">
-                        <button class="btn-style" type="submit" onclick="findDuplicates()">Submit</button>
+                        <button class="btn-style" type="submit">Submit</button>
                     </div>
                 </div>
             </form>
         </div>
-        <div>
-            <p id="duplicates"></p>
+        <div class="output-container">
+            <div class="output-pos">
+                <p class="output" id="duplicates"></p>
+            </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
