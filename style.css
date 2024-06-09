@@ -6,7 +6,7 @@ body, html {
     display: center;
     justify-content: center;
     align-items: center;
-    font-family: 'Press Start 2P', 'Arial';
+    font-family: 'Kode Mono', 'Arial';
 }
 
 .header {
@@ -15,8 +15,7 @@ body, html {
     align-items: center;
     width: 100%;
     padding: 10px 0;
-    font-family: 'Press Start 2P';
-    font-size: 9px;
+    font-size: 1rem;
 }
 
 .header h1 {
@@ -29,32 +28,40 @@ body, html {
     justify-content: center;
 }
 
+.output-container {
+    padding-left: 700px;
+    margin-top: -600px;
+}
+
+.output {
+    border: 2px double black;
+    font-family: 'Arial';
+}
+
 .btn-container {
     justify-content: center;
     margin-top: 300px; 
 }
 
 .lists {
-    display: inline-flex;
+    display: flex;
 }
 
-.list1, .list2, .btn-pos {
+.list1, .list2, .btn-pos, .output-pos {
     padding: 0px 30px;
 }
 
 textarea {
     resize: none;
-    background-color: rgb(253, 253, 244);
+    background-color: rgb(255, 255, 240);
     border-color: black;
     border-style: double;
 }
 
 .btn-style {
     padding: 15px 30px;
-    font-family: 'Press Start 2P', 'Arial';
+    font-family: 'Kode Mono', 'Arial';
+    font-weight: 900;
+    font-size: 1rem;
     background-color: rgb(210, 210, 210);
-}
-
-p {
-    font-family: 'Arial';
 }
