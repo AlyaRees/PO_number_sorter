@@ -5,9 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hello</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="header">
@@ -18,11 +15,11 @@
             <form class="lists" onsubmit="findDuplicates(event)">
                 <div class="list1">
                     <label for="list1">List 1</label><br><br>
-                    <textarea id="list1" rows="45" cols="25" placeholder="Paste first list here"></textarea>
+                    <textarea id="list1" rows="40" cols="25" placeholder="Paste first list here"></textarea>
                 </div>
                 <div class="list2">
                     <label for="list2">List 2</label><br><br>
-                    <textarea id="list2" rows="45" cols="25" placeholder="Paste comparison list here"></textarea>
+                    <textarea id="list2" rows="40" cols="25" placeholder="Paste comparison list here"></textarea>
                 </div>
                 <div class="btn-container">
                     <div class="btn-pos">
@@ -30,10 +27,10 @@
                     </div>
                 </div>
             </form>
-            <div class="output-container">
-                <div class="output-pos">
-                    <p class="output" id="duplicates"></p>
-                </div>
+        </div>
+        <div class="output-container">
+            <div class="output-pos">
+                <p class="output" id="duplicates"></p>
             </div>
         </div>
         <script src="script.js"></script>

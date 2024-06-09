@@ -20,6 +20,6 @@ const duplicates = list1.filter(value => list2.includes(value));
 
 //gets the id 'duplicates' of the <p> element from html
 //.textContent sets or replaces any content of the selected element  
-document.getElementById('duplicates').textContent = duplicates.length > 0 ? duplicates.join(', ') : 'No duplicates found.';
+document.getElementById('duplicates').textContent = duplicates.length > 0 ? duplicates.join(' '): 'No duplicates found.';
 
 }
